@@ -13,17 +13,16 @@ The objective of the study is to –
 - Create an effective inventory management system for OTG
 
 
-## Tech Stack
+Tech Stack
 
-**Language:** MYSQL
+Language: MYSQL
 
-**Tools:** MYSQL workbench
+Tools: MYSQL workbench
 
 
-## Project Description
+Project Description
 
-#### DATASET:
-
+DATASET:
 Provided with 8 tables as hard copies by the Lawson OTG –
 - Employee related information:
         
@@ -39,11 +38,11 @@ Provided with 8 tables as hard copies by the Lawson OTG –
         
         Order details which includes Order ID, payment type, dates etc.
         Product details which includes meal prices of all the products
-Created 8 entity, 3 associative entity and 3 relationships in our dataset.
+Created 8 entities, 3 associative entities and 3 relationships in the dataset.
 
-ERD was plotted using MYSQL workbench (project review available in GITLAB)
+ERD was plotted using MYSQL workbench
 
-#### INSIGHTS AND RECOMMENDATION:
+INSIGHTS AND RECOMMENDATION:
 - It is crucial to check for out of stock quantities in order to prevent items from being excluded from the menu, and hence maximize the revenue.
 - From the snippet, it is clear that cheese and bagel are running out of stock which puts the desserts part of the menu at risk.
 - Also, this could be automated as it is important to check for quantities of items that might run out of stock soon
